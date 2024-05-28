@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment4</title>
+    <script src="index.js"></script>
+    <script src="Point.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Circles.js"></script>
+    <script src="Cube.js"></script>
+    <script src="sphere.js"></script>
+    <script src="Camera.js"></script>
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix.js"></script>
+</head>
+
+<body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+        Please use a browser that supports Canvas!
+    </canvas>
+
+    <br><br>
+
+    <div id="performanceData"></div>
+    
+    <br><br>
+
+    <button id="normalOn">Normal On</button>
+    <button id="normalOff">Normal Off</button>
+
+    <br><br>
+
+    <button id="lightOn">Light On</button>
+    <button id="lightOff">Light Off</button>
+
+    <br><br>
+
+    Light X <input type="range" min="-250" max="250" value="0" class="slider" id="lightSlideX">
+    Light Y <input type="range" min="-250" max="250" value="0" class="slider" id="lightSlideY">
+    Light Z <input type="range" min="-250" max="250" value="0" class="slider" id="lightSlideZ">
+
+    <br><br>
+
+</body>
+
+</html>
